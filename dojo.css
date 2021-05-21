@@ -1,0 +1,94 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    }
+
+/* Button with box-shadow */
+.btn {
+    background-color: #2B78E4;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 1px black;
+}
+
+/* row */
+.row {
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2 {
+    flex: 2;
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-3 {
+    flex: 3;
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Navigation bar */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #333333;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links button {
+    background-color: #28A2B8;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+}
